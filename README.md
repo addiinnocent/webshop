@@ -35,4 +35,4 @@ Als HTML Template Engine wird auf Jade gesetzt!
 Very Early Stage:
 - Startseite provisorisch gestaltet
 - Produkte können hinzugefügt werden 
-- Produkte werden ausgegeben
+- Produkte werden angezeigt
