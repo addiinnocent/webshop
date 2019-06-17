@@ -1,0 +1,36 @@
+extends layout
+
+block content
+ script(type='text/javascript' src='/library/underscore.js')
+ script(type='text/javascript' src='/library/backbone.js')
+ script(type='text/javascript' src='/library/backbone.native.js')
+
+ include ./models/alert/index.jade
+ include ./models/item.jade
+
+ include ./sites/index.jade
+
+
+ div.alert
+ div.grid
+   div.app
+     div#site
+     div.message
+   
+ script(type='text/javascript' src='/socket.io/socket.io.js')
+ //script(type='text/javascript' src='/javascripts/app.min.js')
+ 
+ script(type='text/javascript' src='/javascripts/socket/incoming.js')
+ script(type='text/javascript' src='/javascripts/socket/outgoing.js')
+   
+ //script(type='text/javascript' src='/javascripts/controller/alert.js')
+ script(type='text/javascript' src='/javascripts/controller/index.js')
+   
+ script(type='text/javascript' src='/javascripts/models.js')
+ script(type='text/javascript' src='/javascripts/routing/routing.js')
+   
+ //--alert--//
+ //script(type='text/javascript' src='/javascripts/views/alert.js')
+ 
+ //--items--//
+ script(type='text/javascript' src='/javascripts/views/items.js')

@@ -1,0 +1,10 @@
+script(type='text/template', id='alert-template')
+  div#shade
+  div#alert
+    i#close(class='fa fa-close')
+    content
+      h3 Notice
+      div.row(type='Text')
+        p <%-attributes.Text%>
+      div.button
+        button.close Okay

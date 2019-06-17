@@ -1,0 +1,15 @@
+{
+	"port": 80,
+	"safeport": 443,
+	"mongoport": 27017,
+	"provider": "localhost",
+	"ssl": false,
+	"sslkey": "",
+	"sslcert": "",
+	"paystack": "Bearer sk_test_***",
+	"logging": true,
+	"admin": {
+		"name": "admin",
+		"password": ""
+	}
+}

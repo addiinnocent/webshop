@@ -1,0 +1,34 @@
+script(type='text/template', id='alert-pay-template')
+  div#shade
+  div#alert
+    i#close(class='fa fa-close')
+    content
+      form.pay(id='paystack-card-form')
+        div.row(type='double')
+          p Produkt
+          input(value!='<%-name%>' disabled)
+          p Betrag
+          input(value!='<%-price%>€' disabled)
+        div.row(type='wide')
+          p Kreditkartennummer
+          input.number(type='text' data-paystack='number' placeholder='0000 0000 0000 0000')
+        div.row(type='double')
+          p Ablaufdatum
+          div.expires
+            input.month.expiry(type='text' data-paystack='expiryMonth' placeholder='MM' maxlength='2')
+            input.year.expiry(type='text'  data-paystack='expiryYear' placeholder='YY' maxlength='2')
+          p CVV
+          input.cvv(type='text' data-paystack='cvv' placeholder='123' maxlength='3')
+        div.input(name='accept')
+          input.accept(type='checkbox')
+          p Kreditkartendetails speichern
+        div.row#pin(type='double' style='display: none')
+          p Pin Code
+          input(type='text' placeholder='1234' maxlength='4')
+        div.button
+          button.send(type='submit' data-paystack='submit') Bezahlen
+          a(href!='<%=authorization_url%>' target='_blank') Per Paystack bezahlen
+
+
+script(src='https://code.jquery.com/jquery-1.12.4.min.js')
+script(type='text/javascript' src='/library/paystack.js')
