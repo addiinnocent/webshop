@@ -6,7 +6,7 @@ Bevor das Programm mit dem Command node 'path/run' gestartet werden kann, müsse
 # Dependencies:
 
 Programme:
-- NodeJs
+- NodeJS
 - MongoDB
 
 Module:
