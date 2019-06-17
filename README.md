@@ -20,8 +20,16 @@ Module:
 
 # Features
 
-Single Page Applikation Webshop:
+I/O Single Page Applikation:
 
-Clientseiting wird das Backbone.js Rendering System genutzt. Die Kommunikation zwischen Client und Server erfolgt per Socket.io. Daten werden vom Client mit der Funktion Sockets.* angefordert ('sockets/outgoing.js') und werden als Callback zurückgegeben ('sockets/incoming.js').
+Clientseiting wird das Backbone.js Rendering System genutzt. Die Kommunikation zwischen Client und Server erfolgt per Socket.io - Daten werden vom Client über die Funktion Sockets.* angefordert ('sockets/outgoing.js'), vom Server verarbeitet und als Callback zurückgegeben ('sockets/incoming.js').
+Um eine möglichst flüssige Performance zu ermöglichen werden Inputs zuerst vom Client verarbeitet und realisiert, bevor sie vom Server endgültig verarbeitet werden.
 
 Das Routing wird ebenfalls über Backbone.js realisiert. Um eine neue Route zu erstellen muss diese zunächst für den Client ('routing/routing.js') als auch für den Server ('routes/index.js') hinzugefügt werden.
+
+# Status
+
+Very Early Stage:
+- Startseite provisorisch gestaltet
+- Produkte können hinzugefügt werden 
+- Produkte werden ausgegeben
