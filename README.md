@@ -22,6 +22,6 @@ Module:
 
 Single Page Applikation Webshop:
 
--Clientseiting wird das Backbone.js Rendering System genutzt. Die Kommunikation zwischen Client und Server erfolgt per Socket.io. Daten werden vom Client mit der Funktion Sockets.* ('sockets/outgoing-js') angefordert und werden als Callback zurückgegeben ('sockets/incoming.js').
+Clientseiting wird das Backbone.js Rendering System genutzt. Die Kommunikation zwischen Client und Server erfolgt per Socket.io. Daten werden vom Client mit der Funktion Sockets.* ('sockets/outgoing-js') angefordert und werden als Callback zurückgegeben ('sockets/incoming.js').
 
--Das Routing wird ebenfalls über Backbone.js realisiert. Um eine neue Route zu erstellen muss diese zunächst für den Client ('routing/routing.js') als auch für den Server ('routes/index.js') hinzugefügt werden.
+Das Routing wird ebenfalls über Backbone.js realisiert. Um eine neue Route zu erstellen muss diese zunächst für den Client ('routing/routing.js') als auch für den Server ('routes/index.js') hinzugefügt werden.
