@@ -17,6 +17,7 @@ Module:
 - errorhandler
 - mongoose
 - socket.io
+- jade
 
 # Features
 
