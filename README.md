@@ -1,7 +1,7 @@
 # Backbone Webshop
 
 Ein Projekt von der Coding Stübchen Community.
-Bevor das Programm mit dem Command node 'path/run' gestartet werden kann, müssen folgende Programme und Module installiert werden (npm install).
+Bevor das Programm mit dem Command node run gestartet werden kann, müssen folgende Programme und Module installiert werden (npm install).
 
 # Dependencies:
 
