@@ -1,6 +1,6 @@
 # Backbone Webshop
 
-Bevor das Programm mit dem Command node run gestartet werden kann, müssen folgende Programme und Module installiert werden (npm install).
+Zuerst müssen folgende Programme und Module installiert werden:
 
 # Dependencies:
 
