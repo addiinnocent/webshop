@@ -1,4 +1,4 @@
-# Basic Webshop in Nodejs
+# Backbone Webshop in Nodejs
 
 Ein Projekt von der Coding Stübchen Community.
 Bevor das Programm mit dem Command node 'path/run' gestartet werden kann, müssen folgende Programme und Module installiert werden (npm install).
@@ -11,10 +11,6 @@ Programme:
 
 Module:
 - express
-- morgan
-- method-override
-- serve-favicon
-- errorhandler
 - mongoose
 - socket.io
 - jade
