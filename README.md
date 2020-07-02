@@ -1,3 +1,8 @@
+# Backbone Webshop
+
+Vielseitiges Backbone Shop System für Private oder Business.
+Solider Aufbau, verständliche Syntax und maximal skalierbar.
+
 # Features
 
 I/O Single Page Applikation:
